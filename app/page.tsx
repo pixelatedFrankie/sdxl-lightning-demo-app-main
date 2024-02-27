@@ -1,13 +1,11 @@
-// Use client-side rendering for this Next.js component
 "use client";
 
-// Import necessary dependencies
 import React, { useEffect, useRef, useState } from "react";
-import { Input } from "@/components/ui/input"; // Ensure this path matches your project structure
-import { ModelIcon } from "@/components/icons/model-icon"; // Ensure this path matches your project structure, or remove if unused
-import Link from "next/link"; // Remove if unused to keep the component clean
-import PromptBoard from "@/components/ui/prompt-board"; // Ensure this path matches your project structure
-import * as fal from "@fal-ai/serverless-client"; // Ensure this package is installed and the path is correct
+import { Input } from "@/components/ui/input";
+import { ModelIcon } from "@/components/icons/model-icon";
+import Link from "next/link";
+import PromptBoard from "@/components/ui/prompt-board";
+import * as fal from "@fal-ai/serverless-client";
 
 // Default prompt setup
 const DEFAULT_PROMPT = "A cinematic shot of a baby raccoon wearing an intricate Italian priest robe";
